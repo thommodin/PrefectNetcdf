@@ -1,0 +1,22 @@
+# Environment dependencies
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+# Project dependencies
+[project]
+name = "prefect_netcdf"
+authors = [
+    {name = "Tom Galindo", email = "thommygalindo@gmail.com"},
+]
+readme = "README.md"
+requires-python = ">=3.12"
+version = "0.0.1"
+dependencies = [
+    "prefect",
+    "httpx",
+]
+
+# Project url
+[project.urls]
+Repository = "https://github.com/thommodin/PrefectNetcdf" # Github url
